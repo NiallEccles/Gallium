@@ -4,11 +4,21 @@ $red:#f44336;
 $red-dark:#d32f2f;
 $red-accent:#ff5252;
 
+.red-light{ color:$red-light; } .red-light-bg{ background:$red-light; }
+.red{ color:$red; } .red-bg{ background:$red; }
+.red-dark{ color:$red-dark; } .red-dark-bg{ background:$red-dark; }
+.red-accent{ color:$red-accent; } .red-accent-bg{ background:$red-accent; }
+
 //PINK
 $pink-light:#f06292;
 $pink:#e91e63;
 $pink-dark:#c2185b;
 $pink-accent:#ff4081;
+
+.pink-light{ color:$pink-light; } .pink-light-bg{ background:$pink-light; }
+.pink{ color:$pink; } .pink-bg{ background:$pink; }
+.pink-dark{ color:$pink-dark; } .pink-dark-bg{ background:$pink-dark; }
+.pink-accent{ color:$pink-accent; } .pink-accent-bg{ background:$pink-accent; }
 
 //PURPLE
 $purple-light:#ba68c8;
@@ -16,11 +26,21 @@ $purple:#9c27b0;
 $purple-dark:#7b1fa2;
 $purple-accent:#e040fb;
 
+.purple-light{ color:$purple-light; } .purple-light-bg{ background:$purple-light; }
+.purple{ color:$purple; } .purple-bg{ background:$purple; }
+.purple-dark{ color:$purple-dark; } .purple-dark-bg{ background:$purple-dark; }
+.purple-accent{ color:$purple-accent; } .purple-accent-bg{ background:$purple-accent; }
+
 //DEEP-PURPLE
 $deep-purple-light:#9575cd;
 $deep-purple:#673ab7;
 $deep-purple-dark:#512da8;
 $deep-purple-accent:#7c4dff;
+
+.deep-purple-light{ color:$deep-purple-light; } .deep-purple-light-bg{ background:$deep-purple-light; }
+.deep-purple{ color:$deep-purple; } .deep-purple-bg{ background:$deep-purple; }
+.deep-purple-dark{ color:$deep-purple-dark; } .deep-purple-dark-bg{ background:$deep-purple-dark; }
+.deep-purple-accent{ color:$deep-purple-accent; } .deep-purple-accent-bg{ background:$deep-purple-accent; }
 
 //INDIGO
 $indigo-light:#7986cb;
@@ -28,11 +48,21 @@ $indigo:#3f51b5;
 $indigo-dark:#303f9f;
 $indigo-accent:#536dfe;
 
+.indigo-light{ color:$indigo-light; } .indigo-light-bg{ background:$indigo-light; }
+.indigo{ color:$indigo; } .indigo-light-bg{ background:$indigo; }
+.indigo-dark{ color:$indigo-dark; } .indigo-light-bg{ background:$indigo-dark; }
+.indigo-accent{ color:$indigo-accent; } .indigo-light-accent-bg{ background:$indigo-accent; }
+
 //BLUE
 $blue-light:#64b5f6;
 $blue:#2196f3;
 $blue-dark:#1976d2;
 $blue-accent:#448aff;
+
+.blue-light{ color:$blue-light; } .blue-light-bg{ background:$blue-light; }
+.blue{ color:$blue; } .blue-bg{ background:$blue; }
+.blue-dark{ color:$blue-dark; } .blue-dark-bg{ background:$blue-dark; }
+.blue-accent{ color:$blue-accent; } .blue-accent-bg{ background:$blue-accent; }
 
 //LIGHT-BLUE
 $light-blue-light:#4fc3f7;
@@ -40,11 +70,21 @@ $light-blue:#03a9f4;
 $light-blue-dark:#0288d1;
 $light-blue-accent:#40c4ff;
 
+.light-blue-light{ color:$light-blue-light; } .light-blue-light-bg{ background:$light-blue-light; }
+.light-blue{ color:$light-blue; } .light-blue-light-bg{ background:$light-blue; }
+.light-blue-dark{ color:$light-blue-dark; } .light-blue-dark-bg{ background:$light-blue-dark; }
+.light-blue-accent{ color:$light-blue-accent; } .light-blue-accent-bg{ background:$light-blue-accent; }
+
 //CYAN
 $cyan-light:#4dd0e1;
 $cyan:#00bcd4;
 $cyan-dark:#0097a7;
 $cyan-accent:#18ffff;
+
+.cyan-light{ color:$cyan-light; } .cyan-light-bg{ background:$cyan-light; }
+.cyan{ color:$cyan; } .cyan-bg{ background:$cyan; }
+.cyan-dark{ color:$cyan-dark; } .cyan-dark-bg{ background:$cyan-dark; }
+.cyan-accent{ color:$cyan-accent; } .cyan-accent-bg{ background:$cyan-accent; }
 
 //TEAL
 $teal-light:#4db6ac;
@@ -52,11 +92,21 @@ $teal:#009688;
 $teal-dark:#00796b;
 $teal-accent:#64ffda;
 
+.teal-light{ color:$teal-light; } .teal-light-bg{ background:$teal-light; }
+.teal{ color:$teal; } .teal-bg{ background:$teal; }
+.teal-dark{ color:$teal-dark; } .teal-dark-bg{ background:$teal-dark; }
+.teal-accent{ color:$teal-accent; } .teal-accent-bg{ background:$teal-accent; }
+
 //GREEN
 $green-light:#81c784;
 $green:#4caf50;
 $green-dark:#388e3c;
 $green-accent:#69f0ae;
+
+.green-light{ color:$green-light; } .green-light-bg{ background:$green-light; }
+.green{ color:$green; } .green-bg{ background:$green; }
+.green-dark{ color:$green-dark; } .green-dark-bg{ background:$green-dark; }
+.green-accent{ color:$green-accent; } .green-accent-bg{ background:$green-accent; }
 
 //LIGHT-GREEN
 $light-green-light:#aed581;
@@ -64,11 +114,21 @@ $light-green:#8bc34a;
 $light-green-dark:#689f38;
 $light-green-accent:#b2ff59;
 
+.light-green-light{ color:$light-green-light; } .light-green-light-bg{ background:$light-green-light; }
+.light-green{ color:$light-green; } .light-green-light-bg{ background:$light-green; }
+.light-green-dark{ color:$light-green-dark; } .light-green-dark-bg{ background:$light-green-dark; }
+.light-green-accent{ color:$light-green-accent; } .light-green-accent-bg{ background:$light-green-accent; }
+
 //LIME
 $lime-light:#dce775;
 $lime:#cddc39;
 $lime-dark:#afb42b;
 $lime-accent:#eeff41;
+
+.lime-light{ color:$lime-light; } .lime-light-bg{ background:$lime-light; }
+.lime{ color:$lime; } .lime-bg{ background:$lime; }
+.lime-dark{ color:$lime-dark; } .lime-dark-bg{ background:$lime-dark; }
+.lime-accent{ color:$lime-accent; } .lime-accent-bg{ background:$lime-accent; }
 
 //YELLOW
 $yellow-light:#fff176;
@@ -76,11 +136,21 @@ $yellow:#ffeb3b;
 $yellow-dark:#fbc02d;
 $yellow-accent:#ffff00;
 
+.yellow-light{ color:$yellow-light; } .yellow-light-bg{ background:$yellow-light; }
+.yellow{ color:$yellow; } .yellow-bg{ background:$yellow; }
+.yellow-dark{ color:$yellow-dark; } .yellow-dark-bg{ background:$yellow-dark; }
+.yellow-accent{ color:$yellow-accent; } .yellow-accent-bg{ background:$yellow-accent; }
+
 //AMBER
 $amber-light:#ffd54f;
 $amber:#ffc107;
 $amber-dark:#ffa000;
 $amber-accent:#ffd740;
+
+.amber-light{ color:$amber-light; } .amber-light-bg{ background:$amber-light; }
+.amber{ color:$amber; } .amber-bg{ background:$amber; }
+.amber-dark{ color:$amber-dark; } .amber-dark-bg{ background:$amber-dark; }
+.amber-accent{ color:$amber-accent; } .amber-accent-bg{ background:$amber-accent; }
 
 //ORANGE
 $orange-light:#ffb74d;
@@ -88,11 +158,21 @@ $orange:#ff9800;
 $orange-dark:#f57c00;
 $orange-accent:#ffab40;
 
-//ORANGE
+.orange-light{ color:$orange-light; } .orange-light-bg{ background:$orange-light; }
+.orange{ color:$orange; } .orange-bg{ background:$orange; }
+.orange-dark{ color:$orange-dark; } .orange-dark-bg{ background:$orange-dark; }
+.orange-accent{ color:$orange-accent; } .orange-accent-bg{ background:$orange-accent; }
+
+//DEEP-ORANGE
 $deep-orange-light:#ff8a65;
 $deep-orange:#ff5722;
 $deep-orange-dark:#e64a19;
 $deep-orange-accent:#ff6e40;
+
+.deep-orange-light{ color:$deep-orange-light; } .deep-orange-light-bg{ background:$deep-orange-light; }
+.deep-orange{ color:$deep-orange; } .deep-orange-bg{ background:$deep-orange; }
+.deep-orange-dark{ color:$deep-orange-dark; } .deep-orange-dark-bg{ background:$deep-orange-dark; }
+.deep-orange-accent{ color:$deep-orange-accent; } .deep-orange-accent-bg{ background:$deep-orange-accent; }
 
 //BROWN
 $brown-light:#a1887f;
@@ -100,14 +180,29 @@ $brown:#795548;
 $brown-dark:#5d4037;
 $brown-accent:#3e2723;
 
+.brown-light{ color:$brown-light; } .brown-light-bg{ background:$brown-light; }
+.brown{ color:$brown; } .brown-bg{ background:$brown; }
+.brown-dark{ color:$brown-dark; } .brown-dark-bg{ background:$brown-dark; }
+.brown-accent{ color:$brown-accent; } .brown-accent-bg{ background:$brown-accent; }
+
 //GREY
 $grey-light:#e0e0e0;
 $grey:#9e9e9e;
 $grey-dark:#616161;
 $grey-accent:#212121;
 
+.grey-light{ color:$grey-light; } .grey-light-bg{ background:$grey-light; }
+.grey{ color:$grey; } .grey-bg{ background:$grey; }
+.grey-dark{ color:$grey-dark; } .grey-dark-bg{ background:$grey-dark; }
+.grey-accent{ color:$grey-accent; } .grey-accent-bg{ background:$grey-accent; }
+
 //BLUE-GREY
 $blue-grey-light:#90a4ae;
 $blue-grey:#607d8b;
 $blue-grey-dark:#455a64;
 $blue-grey-accent:#263238;
+
+.blue-grey-light{ color:$blue-grey-light; } .blue-grey-light-bg{ background:$blue-grey-light; }
+.blue-grey{ color:$blue-grey; } .blue-grey-bg{ background:$blue-grey; }
+.blue-grey-dark{ color:$blue-grey-dark; } .blue-grey-dark-bg{ background:$blue-grey-dark; }
+.blue-grey-accent{ color:$blue-grey-accent; } .blue-grey-accent-bg{ background:$blue-grey-accent; }
