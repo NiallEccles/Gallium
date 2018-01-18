@@ -174,7 +174,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\0000352}}
-.indigo-light-bg {
+.indigo-bg {
   background: #3f51b5;
 }
 
@@ -184,7 +184,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\0000353}}
-.indigo-light-bg {
+.indigo-dark-bg {
   background: #303f9f;
 }
 
@@ -194,7 +194,7 @@
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\0000354}}
-.indigo-light-accent-bg {
+.indigo-accent-bg {
   background: #536dfe;
 }
 
@@ -758,6 +758,46 @@
   background: #263238;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003215}}
+.white {
+  color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003215}}
+.white-bg {
+  background: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003216}}
+.black {
+  color: #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003216}}
+.black-bg {
+  background: #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003217}}
+.dark {
+  color: #2b2b2b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003217}}
+.dark-bg {
+  background: #2b2b2b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003218}}
+.light {
+  color: #f1f1f2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/colours\.scss}line{font-family:\00003218}}
+.light-bg {
+  background: #f1f1f2;
+}
+
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -1209,6 +1249,15 @@ h6, .zeta {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/components\/main\.scss}line{font-family:\000031}}
 .main {
   min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/gallium\/css\/sass\/components\/main\.scss}line{font-family:\000039}}
+.main > h1, h2, h3, h4, h5, h5 {
+  margin: 0;
 }
 
 /*# sourceMappingURL=Gallium.css.map */

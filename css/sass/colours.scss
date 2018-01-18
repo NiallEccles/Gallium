@@ -49,9 +49,9 @@ $indigo-dark:#303f9f;
 $indigo-accent:#536dfe;
 
 .indigo-light{ color:$indigo-light; } .indigo-light-bg{ background:$indigo-light; }
-.indigo{ color:$indigo; } .indigo-light-bg{ background:$indigo; }
-.indigo-dark{ color:$indigo-dark; } .indigo-light-bg{ background:$indigo-dark; }
-.indigo-accent{ color:$indigo-accent; } .indigo-light-accent-bg{ background:$indigo-accent; }
+.indigo{ color:$indigo; } .indigo-bg{ background:$indigo; }
+.indigo-dark{ color:$indigo-dark; } .indigo-dark-bg{ background:$indigo-dark; }
+.indigo-accent{ color:$indigo-accent; } .indigo-accent-bg{ background:$indigo-accent; }
 
 //BLUE
 $blue-light:#64b5f6;
@@ -206,3 +206,13 @@ $blue-grey-accent:#263238;
 .blue-grey{ color:$blue-grey; } .blue-grey-bg{ background:$blue-grey; }
 .blue-grey-dark{ color:$blue-grey-dark; } .blue-grey-dark-bg{ background:$blue-grey-dark; }
 .blue-grey-accent{ color:$blue-grey-accent; } .blue-grey-accent-bg{ background:$blue-grey-accent; }
+
+$white:#ffffff;
+$black:#000000;
+$dark:#2b2b2b;
+$light:#f1f1f2;
+
+.white{ color:$white; } .white-bg{ background:$white; }
+.black{ color:$black; } .black-bg{ background:$black; }
+.dark{ color:$dark; } .dark-bg{ background:$dark; }
+.light{ color:$light; } .light-bg{ background:$light; }
