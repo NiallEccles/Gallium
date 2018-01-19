@@ -268,7 +268,6 @@ module.exports = function(grunt) {
     'concat:js',        // Concatenate main JS files
     'uglify',           // Minifiy concatenated JS file
     'sass:dist',        // Compile Sass with distribution settings
-    'svg2png',          // Convert svg files to png
     'svgmin',           // Compress svg files
     'imagemin',         // Compress jpg/jpeg + png files
   ]);
