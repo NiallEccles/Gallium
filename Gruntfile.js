@@ -261,7 +261,7 @@ module.exports = function(grunt) {
     'imagemin',         // Compress jpg/jpeg + png files
   ]);
 
-  grunt.registerTask('server',[
+  grunt.registerTask('serve',[
     'express',          // launch express server
     'watch',            // watch files for changes
     'jshint',           // JShint
