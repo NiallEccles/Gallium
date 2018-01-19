@@ -12,3 +12,8 @@
 	margin:0;
 	color:$color-primary-text;
 }
+
+.heading>h1>small{
+	font-size:$small-font-size;
+	margin-left:$small-margin;
+}

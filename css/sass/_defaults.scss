@@ -16,8 +16,9 @@ $primary-font:   -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Hel
 $secondary-font:  -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Base font sizes
-$base-font-size:    16px!default;
+$base-font-size:    18px!default;
 $base-line-height:  24px!default;
+$small-font-size:	14px!default;
 
 // Heading sizes
 $h1-size:           36px!default;
@@ -41,3 +42,7 @@ $global-radius:     6px;
 
 //Default padding
 $default-padding: 	0px 20px 0px 20px;
+
+//Default margin
+$default-margin: 	20px 0px 20px 0px;
+$small-margin: 		5px;
