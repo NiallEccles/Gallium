@@ -1,5 +1,4 @@
-$bg-color:#333;
-$color: #ffffff;
+@import '_globals';
 
 body{
 	background:$bg-color;
@@ -7,16 +6,8 @@ body{
 	height:100vh;
 	margin:0;
 	padding:0;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
 	color:$color;
-	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-body>img{
-	width:100px;
+	font-family: $font-family;
 }
 
 ::selection{
