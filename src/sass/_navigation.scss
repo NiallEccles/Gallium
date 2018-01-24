@@ -1,0 +1,41 @@
+//Navigation
+.nav {
+	background: $dark;
+	min-height: 75px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 75px;
+		padding: 0px 10px 0px 10px;
+		.logo {
+			color: $light;
+			text-decoration: none;
+		}
+	}
+	a {
+		color: $light;
+		text-decoration: none;
+	}
+	a:hover {
+		background: $light;
+		color:$dark;
+		cursor: pointer;
+		.logo {
+			color: $dark;
+		}
+	}
+	.spacer{
+		flex-grow: 1;
+	}
+	ul{
+		display:flex;
+		margin:0;
+		li{
+			display:flex;
+		}
+	}
+}

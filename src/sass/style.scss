@@ -1,22 +1,3 @@
 @import '_globals';
-
-body{
-	background:$bg-color;
-	width:100vw;
-	height:100vh;
-	margin:0;
-	padding:0;
-	color:$color;
-	font-family: $font-family;
-}
-
-::selection{
-	background:$color;
-	color:$bg-color;
-}
-
-::-moz-selection{
-	background:$color;
-	color:$bg-color;
-}
-
+@import '_base';
+@import '_navigation';

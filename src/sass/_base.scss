@@ -1,0 +1,17 @@
+body{
+	background:$light;
+	margin:0;
+	padding:0;
+	color:$dark;
+	font-family: $font-family;
+}
+
+::selection{
+	background:$light;
+	color:$dark;
+}
+
+::-moz-selection{
+	background:$light;
+	color:$dark;
+}

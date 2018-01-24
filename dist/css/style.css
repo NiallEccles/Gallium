@@ -1,16 +1,46 @@
 body {
-  background: #333;
-  width: 100vw;
-  height: 100vh;
+  background: #fff;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 ::selection {
-  background: #ffffff;
+  background: #fff;
   color: #333; }
 
 ::-moz-selection {
-  background: #ffffff;
+  background: #fff;
   color: #333; }
+
+.nav {
+  background: #333;
+  min-height: 75px;
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+    padding: 0px 10px 0px 10px; }
+    .nav a .logo {
+      color: #fff;
+      text-decoration: none; }
+  .nav a {
+    color: #fff;
+    text-decoration: none; }
+  .nav a:hover {
+    background: #fff;
+    color: #333;
+    cursor: pointer; }
+    .nav a:hover .logo {
+      color: #333; }
+  .nav .spacer {
+    flex-grow: 1; }
+  .nav ul {
+    display: flex;
+    margin: 0; }
+    .nav ul li {
+      display: flex; }
