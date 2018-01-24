@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  background: #333;
   margin: 0;
   padding: 0;
   color: #333;
@@ -18,7 +18,12 @@ body {
   min-height: 75px;
   position: relative;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 38px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 38px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 38px 3px rgba(0, 0, 0, 0.75);
+  position: fixed;
+  width: 100%; }
   .nav a {
     display: flex;
     align-items: center;
@@ -39,8 +44,21 @@ body {
       color: #333; }
   .nav .spacer {
     flex-grow: 1; }
+  .nav .responsive-nav {
+    display: none; }
+    @media screen and (max-width: 800px) {
+      .nav .responsive-nav {
+        color: white;
+        display: block;
+        width: 40px;
+        margin-right: 10px; } }
   .nav ul {
     display: flex;
     margin: 0; }
+    @media screen and (max-width: 800px) {
+      .nav ul {
+        display: none; } }
     .nav ul li {
       display: flex; }
+  .nav .respond {
+    display: block; }

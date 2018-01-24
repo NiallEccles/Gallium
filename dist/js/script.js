@@ -1,1 +1,1 @@
-console.log("This is the first log"),console.log("This is the second log");
+var menu=document.querySelector(".menu"),menuIcon=document.querySelector(".responsive-nav");menuIcon.addEventListener("click",function(){menu.classList.toggle("respond")}),console.log("This is the second log");
