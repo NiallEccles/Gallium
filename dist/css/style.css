@@ -71,14 +71,6 @@ strong {
     font-size: 1em;
     line-height: 1.375; } }
 
-::selection {
-  background: #fff;
-  color: #333; }
-
-::-moz-selection {
-  background: #fff;
-  color: #333; }
-
 .nav {
   background: #333;
   min-height: 75px;
