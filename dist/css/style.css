@@ -4,7 +4,72 @@ body {
   margin-bottom: 75px;
   padding: 0;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size-adjust: 0.5; }
+
+p,
+span,
+a,
+ul,
+li,
+ol,
+button,
+cite,
+code,
+table,
+th,
+td,
+tr,
+em,
+dl,
+dt,
+i,
+input,
+label,
+legend,
+option,
+pre,
+span,
+strong {
+  font-size: 1em;
+  line-height: 1.25; }
+
+@media (min-width: 43.75em) {
+  p,
+  span,
+  a,
+  ul,
+  li,
+  ol,
+  button,
+  cite,
+  code,
+  table,
+  th,
+  td,
+  tr,
+  em,
+  dl,
+  dt,
+  i,
+  input,
+  label,
+  legend,
+  option,
+  pre,
+  span,
+  strong {
+    font-size: 1em;
+    line-height: 1.375; } }
 
 ::selection {
   background: #fff;
