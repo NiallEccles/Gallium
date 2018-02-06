@@ -183,7 +183,8 @@ h4 {
     line-height: 1.22222222; } }
 
 .container {
-  margin-top: 75px; }
+  margin-top: 75px;
+  padding: 0 1em; }
 
 .btn {
   padding: 0.5em 0.75em;
