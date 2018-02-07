@@ -218,8 +218,8 @@ hr {
   hr.xs {
     width: 12%; }
   hr.sm {
-    width: 21%; }
+    width: 31%; }
   hr.md {
-    width: 33%; }
+    width: 63%; }
   hr.light {
     border: 0.1em solid #fff; }
