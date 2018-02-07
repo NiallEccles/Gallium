@@ -201,3 +201,14 @@ h4 {
 
 .btn.large {
   padding: 1em 2em; }
+
+input {
+  background: #fff;
+  border: 2px solid #333;
+  color: #333;
+  padding: 0.25em 0.5em; }
+
+.label {
+  color: #fff;
+  background: #333;
+  padding: 0.25em 0.5em; }
