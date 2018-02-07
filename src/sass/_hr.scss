@@ -1,0 +1,19 @@
+hr{
+    border:0.1em solid $dark;
+
+    &.xs{
+        width:12%;
+    }
+
+    &.sm{
+        width:21%;
+    }
+
+    &.md{
+        width:33%;
+    }
+
+    &.light{
+        border:0.1em solid $light;
+    }
+}

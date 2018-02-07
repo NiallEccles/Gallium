@@ -212,3 +212,14 @@ input {
   color: #fff;
   background: #333;
   padding: 0.25em 0.5em; }
+
+hr {
+  border: 0.1em solid #333; }
+  hr.xs {
+    width: 12%; }
+  hr.sm {
+    width: 21%; }
+  hr.md {
+    width: 33%; }
+  hr.light {
+    border: 0.1em solid #fff; }
