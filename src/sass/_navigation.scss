@@ -55,6 +55,7 @@
 		}
 		li {
 			display: flex;
+			margin-bottom: 0!important;
 			a{
 				@media screen and (max-width: $mobile) {
 					width:100%;

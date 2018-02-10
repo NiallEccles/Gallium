@@ -1,5 +1,5 @@
 ul, ol{
-    li{
+    li:not(.nav){
         margin-bottom: 0.35em;
     }
 }
