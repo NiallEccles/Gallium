@@ -227,3 +227,14 @@ hr {
     width: 63%; }
   hr.light {
     border: 0.1em solid #fff; }
+
+.label {
+  color: #fff;
+  background: #333;
+  padding: 0.25em 0.5em; }
+
+a {
+  color: #333; }
+
+.no-underline {
+  text-decoration: none; }
