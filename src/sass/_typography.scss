@@ -1,6 +1,11 @@
 h1 {
 	font-size: 2em;
 	line-height: 1.25;
+	small{
+		font-size: 0.35em;
+		color:$faded;
+		margin:0 0 0 0.2em;
+	}
 }
 
 @media (min-width: 43.75em) {

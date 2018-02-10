@@ -135,6 +135,10 @@ strong {
 h1 {
   font-size: 2em;
   line-height: 1.25; }
+  h1 small {
+    font-size: 0.35em;
+    color: #8b8b8b;
+    margin: 0 0 0 0.2em; }
 
 @media (min-width: 43.75em) {
   h1 {
