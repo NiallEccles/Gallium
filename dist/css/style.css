@@ -238,3 +238,6 @@ a {
 
 .no-underline {
   text-decoration: none; }
+
+ul li, ol li {
+  margin-bottom: 0.35em; }
