@@ -257,7 +257,15 @@ ul li, ol li {
 
 .section {
   background: #8b8b8b;
+  color: #fff;
   border-radius: 0.235em;
-  padding: 0.5em 0.5em; }
+  padding: 0.5em 0.5em;
+  margin: 1em 0; }
   .section h1, .section h2, .section h3, .section h4, .section h5 {
     margin: 0; }
+  .section.dark {
+    background: #333;
+    color: #fff; }
+  .section.light {
+    background: none;
+    color: #8b8b8b; }
