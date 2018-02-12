@@ -269,3 +269,11 @@ ul li, ol li {
   .section.light {
     background: none;
     color: #8b8b8b; }
+
+.fullwidth-table {
+  width: 100%;
+  border-collapse: collapse; }
+  .fullwidth-table td, .fullwidth-table th {
+    border: 1px solid #8b8b8b;
+    text-align: left;
+    padding: 8px; }
