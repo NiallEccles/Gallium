@@ -12,6 +12,8 @@
 .display-row{
     svg{
         width: 1.5em;
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
         g{
             line{                
                 stroke: $dark;
@@ -24,5 +26,18 @@
     td, th{
         padding: 16px;
         transition: 200ms all ease-in-out;
-    }   
+    } 
+    svg{
+        width: 1.5em;
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
+        g{
+            line{                
+                stroke: $faded;
+            }
+            rect{
+                stroke: $faded;
+            }
+        }
+    }  
 }

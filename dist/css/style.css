@@ -280,10 +280,21 @@ ul li, ol li {
     transition: 200ms padding ease-in-out; }
 
 .display-row svg {
-  width: 1.5em; }
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
   .display-row svg g line {
     stroke: #333; }
 
 .acc-respond td, .acc-respond th {
   padding: 16px;
   transition: 200ms all ease-in-out; }
+
+.acc-respond svg {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond svg g line {
+    stroke: #8b8b8b; }
+  .acc-respond svg g rect {
+    stroke: #8b8b8b; }
