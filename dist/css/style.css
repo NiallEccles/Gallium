@@ -276,4 +276,14 @@ ul li, ol li {
   .fullwidth-table td, .fullwidth-table th {
     border: 1px solid #8b8b8b;
     text-align: left;
-    padding: 8px; }
+    padding: 8px;
+    transition: 200ms padding ease-in-out; }
+
+.display-row svg {
+  width: 1.5em; }
+  .display-row svg g line {
+    stroke: #333; }
+
+.acc-respond td, .acc-respond th {
+  padding: 16px;
+  transition: 200ms all ease-in-out; }

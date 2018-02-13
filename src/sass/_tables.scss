@@ -5,5 +5,24 @@
         border: 1px solid $faded;
         text-align: left;
         padding: 8px;
+        transition: 200ms padding ease-in-out;
     }
+}
+
+.display-row{
+    svg{
+        width: 1.5em;
+        g{
+            line{                
+                stroke: $dark;
+            }
+        }
+    }
+}
+
+.acc-respond{
+    td, th{
+        padding: 16px;
+        transition: 200ms all ease-in-out;
+    }   
 }
