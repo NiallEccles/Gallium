@@ -281,20 +281,48 @@ ul li, ol li {
 
 .display-row svg {
   width: 1.5em;
+  margin-right: 0.5em;
   transition: 200ms all ease-in-out;
   cursor: pointer; }
   .display-row svg g line {
     stroke: #333; }
 
-.acc-respond td, .acc-respond th {
-  padding: 16px;
+.acc-respond-increase td, .acc-respond-increase th {
+  padding: 16px !important;
   transition: 200ms all ease-in-out; }
 
-.acc-respond svg {
+.acc-respond-increase svg.acc-button-increase {
   width: 1.5em;
   transition: 200ms all ease-in-out;
   cursor: pointer; }
-  .acc-respond svg g line {
+  .acc-respond-increase svg.acc-button-increase g line {
     stroke: #8b8b8b; }
-  .acc-respond svg g rect {
+  .acc-respond-increase svg.acc-button-increase g rect {
+    stroke: #8b8b8b; }
+
+.acc-respond-decrease td, .acc-respond-decrease th {
+  padding: 0px;
+  transition: 200ms all ease-in-out; }
+
+.acc-respond-decrease svg.acc-button-decrease {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond-decrease svg.acc-button-decrease g line {
+    stroke: #8b8b8b; }
+  .acc-respond-decrease svg.acc-button-decrease g rect {
+    stroke: #8b8b8b; }
+
+.acc-respond-contrast td, .acc-respond-contrast th {
+  color: yellow;
+  background: black;
+  transition: 200ms all ease-in-out; }
+
+.acc-respond-contrast svg.acc-button-contrast {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond-contrast svg.acc-button-contrast g line {
+    stroke: #8b8b8b; }
+  .acc-respond-contrast svg.acc-button-contrast g circle {
     stroke: #8b8b8b; }
