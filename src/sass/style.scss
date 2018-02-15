@@ -1,31 +1,15 @@
-$bg-color:#333;
-$color: #ffffff;
-
-body{
-	background:$bg-color;
-	width:100vw;
-	height:100vh;
-	margin:0;
-	padding:0;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
-	color:$color;
-	font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-body>img{
-	width:100px;
-}
-
-::selection{
-	background:$color;
-	color:$bg-color;
-}
-
-::-moz-selection{
-	background:$color;
-	color:$bg-color;
-}
-
+@import '_globals';
+@import '_base';
+@import '_navigation';
+@import '_typography';
+@import '_container';
+@import '_buttons';
+@import '_input';
+@import '_label';
+@import '_hr';
+@import '_label';
+@import '_links';
+@import '_lists';
+@import '_images';
+@import '_section';
+@import '_tables';

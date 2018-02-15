@@ -1,23 +1,328 @@
 body {
-  background: #333;
-  width: 100vw;
-  height: 100vh;
+  background: #fff;
   margin: 0;
+  margin-bottom: 75px;
   padding: 0;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  overflow-x: hidden; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size-adjust: 0.5; }
+
+p,
+span,
+a,
+ul,
+li,
+ol,
+button,
+cite,
+code,
+table,
+th,
+td,
+tr,
+em,
+dl,
+dt,
+i,
+input,
+label,
+legend,
+option,
+pre,
+span,
+strong {
+  font-size: 1em;
+  line-height: 1.25; }
+
+@media (min-width: 43.75em) {
+  p,
+  span,
+  a,
+  ul,
+  li,
+  ol,
+  button,
+  cite,
+  code,
+  table,
+  th,
+  td,
+  tr,
+  em,
+  dl,
+  dt,
+  i,
+  input,
+  label,
+  legend,
+  option,
+  pre,
+  span,
+  strong {
+    font-size: 1em;
+    line-height: 1.375; } }
+
+.nav {
+  background: #333;
+  min-height: 75px;
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  .nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+    padding: 0px 10px 0px 10px; }
+    @media screen and (max-width: 800px) {
+      .nav a {
+        justify-content: flex-start; } }
+    .nav a .logo {
+      color: #fff;
+      text-decoration: none; }
+  .nav a {
+    color: #fff;
+    text-decoration: none; }
+  .nav a:hover {
+    background: #fff;
+    color: #333;
+    cursor: pointer; }
+    .nav a:hover .logo {
+      color: #333; }
+  .nav .spacer {
+    flex-grow: 1; }
+  .nav .responsive-nav {
+    display: none; }
+    @media screen and (max-width: 800px) {
+      .nav .responsive-nav {
+        color: white;
+        display: block;
+        width: 30px;
+        margin-right: 10px; } }
+  .nav ul {
+    display: flex;
+    margin: 0; }
+    @media screen and (max-width: 800px) {
+      .nav ul {
+        display: none; } }
+    .nav ul li {
+      display: flex;
+      margin-bottom: 0 !important; }
+      @media screen and (max-width: 800px) {
+        .nav ul li a {
+          width: 100%; } }
+  @media screen and (max-width: 800px) {
+    .nav .respond {
+      display: initial;
+      position: absolute;
+      background: #333;
+      top: 75px;
+      width: 100%;
+      transition: all 300ms ease-in-out;
+      padding: 0; } }
 
-body > img {
-  width: 100px; }
+h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+  h1 small {
+    font-size: 0.35em;
+    color: #8b8b8b;
+    margin: 0 0 0 0.2em; }
 
-::selection {
-  background: #ffffff;
+@media (min-width: 43.75em) {
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125; } }
+
+@media (min-width: 56.25em) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05; } }
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+
+@media (min-width: 43.75em) {
+  h2 {
+    font-size: 2em;
+    line-height: 1.25; } }
+
+@media (min-width: 56.25em) {
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25; } }
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+
+@media (min-width: 43.75em) {
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25; } }
+
+@media (min-width: 56.25em) {
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25; } }
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+
+@media (min-width: 43.75em) {
+  h4 {
+    line-height: 1.22222222; } }
+
+.container {
+  margin-top: 75px;
+  padding: 0 1em; }
+
+.btn {
+  padding: 0.5em 0.75em;
+  background: #fff;
+  border: 2px solid #333;
   color: #333; }
 
-::-moz-selection {
-  background: #ffffff;
+.btn:hover {
+  background: #333;
+  color: #fff; }
+
+.btn.small {
+  padding: 0.25em 0.5em; }
+
+.btn.large {
+  padding: 1em 2em; }
+
+input {
+  background: #fff;
+  border: 2px solid #333;
+  color: #333;
+  padding: 0.25em 0.5em; }
+
+.label {
+  color: #fff;
+  background: #333;
+  padding: 0.25em 0.5em; }
+
+hr {
+  border: 0.1em solid #333; }
+  hr.xs {
+    width: 12%; }
+  hr.sm {
+    width: 31%; }
+  hr.md {
+    width: 63%; }
+  hr.light {
+    border: 0.1em solid #fff; }
+
+.label {
+  color: #fff;
+  background: #333;
+  padding: 0.25em 0.5em; }
+
+a {
   color: #333; }
+
+.no-underline {
+  text-decoration: none; }
+
+ul li, ol li {
+  margin-bottom: 0.35em; }
+
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+  .fullwidth img {
+    width: 100%; }
+
+.section {
+  background: #8b8b8b;
+  color: #fff;
+  border-radius: 0.235em;
+  padding: 1em 1em;
+  margin: 1em 0; }
+  .section h1, .section h2, .section h3, .section h4, .section h5 {
+    margin: 0; }
+  .section.dark {
+    background: #333;
+    color: #fff; }
+  .section.light {
+    background: none;
+    color: #8b8b8b; }
+
+.fullwidth-table {
+  width: 100%;
+  border-collapse: collapse; }
+  .fullwidth-table td, .fullwidth-table th {
+    border: 1px solid #8b8b8b;
+    text-align: left;
+    padding: 8px;
+    transition: 200ms padding ease-in-out; }
+
+.display-row svg {
+  width: 1.5em;
+  margin-right: 0.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .display-row svg g line {
+    stroke: #333; }
+
+.acc-respond-increase td, .acc-respond-increase th {
+  padding: 16px !important;
+  transition: 200ms all ease-in-out; }
+
+.acc-respond-increase svg.acc-button-increase {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond-increase svg.acc-button-increase g line {
+    stroke: #8b8b8b; }
+  .acc-respond-increase svg.acc-button-increase g rect {
+    stroke: #8b8b8b; }
+
+.acc-respond-decrease td, .acc-respond-decrease th {
+  padding: 0px;
+  transition: 200ms all ease-in-out; }
+
+.acc-respond-decrease svg.acc-button-decrease {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond-decrease svg.acc-button-decrease g line {
+    stroke: #8b8b8b; }
+  .acc-respond-decrease svg.acc-button-decrease g rect {
+    stroke: #8b8b8b; }
+
+.acc-respond-contrast td, .acc-respond-contrast th {
+  color: yellow;
+  background: black;
+  transition: 200ms all ease-in-out; }
+
+.acc-respond-contrast svg.acc-button-contrast {
+  width: 1.5em;
+  transition: 200ms all ease-in-out;
+  cursor: pointer; }
+  .acc-respond-contrast svg.acc-button-contrast g line {
+    stroke: #8b8b8b; }
+  .acc-respond-contrast svg.acc-button-contrast g circle {
+    stroke: #8b8b8b; }

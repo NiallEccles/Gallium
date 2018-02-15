@@ -1,0 +1,85 @@
+.fullwidth-table{
+    width: 100%;
+    border-collapse: collapse;
+    td, th {
+        border: 1px solid $faded;
+        text-align: left;
+        padding: 8px;
+        transition: 200ms padding ease-in-out;
+    }
+}
+
+.display-row{
+    svg{
+        width: 1.5em;
+        margin-right: 0.5em;
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
+        g{
+            line{                
+                stroke: $dark;
+            }
+        }
+    }
+}
+
+.acc-respond-increase{
+    td, th{
+        padding: 16px!important;
+        transition: 200ms all ease-in-out;
+    } 
+    svg.acc-button-increase{
+        width: 1.5em;        
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
+        g{
+            line{                
+                stroke: $faded;
+            }
+            rect{
+                stroke: $faded;
+            }
+        }
+    }  
+}
+
+.acc-respond-decrease{
+    td, th{
+        padding: 0px;
+        transition: 200ms all ease-in-out;
+    } 
+    svg.acc-button-decrease{
+        width: 1.5em;
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
+        g{
+            line{                
+                stroke: $faded;
+            }
+            rect{
+                stroke: $faded;
+            }
+        }
+    }  
+}
+
+.acc-respond-contrast{
+    td, th{
+        color:yellow;
+        background:black;
+        transition: 200ms all ease-in-out;
+    } 
+    svg.acc-button-contrast{
+        width: 1.5em;
+        transition: 200ms all ease-in-out;
+        cursor: pointer;
+        g{
+            line{                
+                stroke: $faded;
+            }
+            circle{
+                stroke: $faded;
+            }
+        }
+    }  
+}

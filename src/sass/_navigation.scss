@@ -1,0 +1,77 @@
+//Navigation
+.nav {
+	background: $dark;
+	min-height: 75px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 999;
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 75px;
+		padding: 0px 10px 0px 10px;
+		@media screen and (max-width: $mobile) {
+			justify-content: flex-start;
+		}
+		.logo {
+			color: $light;
+			text-decoration: none;
+		}
+	}
+	a {
+		color: $light;
+		text-decoration: none;
+	}
+	a:hover {
+		background: $light;
+		color: $dark;
+		cursor: pointer;
+		.logo {
+			color: $dark;
+		}
+	}
+	.spacer {
+		flex-grow: 1;
+	}
+	.responsive-nav {
+		display: none;
+		@media screen and (max-width: $mobile) {
+			color: white;
+			display: block;
+			width: 30px;
+			margin-right: 10px;
+		}
+	}
+	ul {
+		display: flex;
+		margin: 0;
+		@media screen and (max-width: $mobile) {
+			display: none;
+		}
+		li {
+			display: flex;
+			margin-bottom: 0!important;
+			a{
+				@media screen and (max-width: $mobile) {
+					width:100%;
+				}
+			}
+		}
+	}
+	.respond {
+		@media screen and (max-width: $mobile) {
+		display: initial;
+		position: absolute;
+		background: $dark;
+		top: 75px;
+		width: 100%;
+		transition: all 300ms ease-in-out;
+		padding:0;
+		}
+	}
+}
