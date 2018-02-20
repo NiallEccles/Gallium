@@ -326,3 +326,13 @@ ul li, ol li {
     stroke: #8b8b8b; }
   .acc-respond-contrast svg.acc-button-contrast g circle {
     stroke: #8b8b8b; }
+
+footer {
+  bottom: 0;
+  padding: 1em; }
+  footer.dark {
+    background: #333;
+    color: #fff; }
+  footer.light {
+    background: #fff;
+    color: #333; }

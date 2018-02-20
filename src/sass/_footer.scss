@@ -1,0 +1,12 @@
+footer{
+    bottom: 0;
+    padding:1em;
+    &.dark{
+        background:$dark;
+        color:$light;
+    }
+    &.light{
+        background: $light;
+        color:$dark;
+    }
+}
