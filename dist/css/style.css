@@ -330,6 +330,9 @@ ul li, ol li {
 footer {
   bottom: 0;
   padding: 1em; }
+  footer.fixed {
+    position: fixed;
+    width: 100%; }
   footer.dark {
     background: #333;
     color: #fff; }

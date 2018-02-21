@@ -1,6 +1,10 @@
 footer{
     bottom: 0;
     padding:1em;
+    &.fixed{
+        position: fixed;
+        width:100%;
+    }
     &.dark{
         background:$dark;
         color:$light;
