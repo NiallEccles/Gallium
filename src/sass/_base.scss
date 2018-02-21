@@ -1,12 +1,12 @@
 body {
 	background: $light;
 	margin: 0;
-	margin-bottom: 75px;
 	padding: 0;
 	color: $dark;
 	font-family: $font-family;
 	font-size: 100%;
 	overflow-x: hidden;
+	position: relative;
 }
 
 body,
