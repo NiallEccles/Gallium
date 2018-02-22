@@ -16,6 +16,22 @@ h4,
 h5,
 h6 {
   font-size-adjust: 0.5; }
+  body.light,
+  h1.light,
+  h2.light,
+  h3.light,
+  h4.light,
+  h5.light,
+  h6.light {
+    color: #fff; }
+  body.dark,
+  h1.dark,
+  h2.dark,
+  h3.dark,
+  h4.dark,
+  h5.dark,
+  h6.dark {
+    color: #fff; }
 
 p,
 span,
@@ -256,9 +272,16 @@ ul li, ol li {
     width: 100%; }
   .fullwidth.letterbox {
     height: 15.5em;
-    overflow: hidden; }
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center; }
     .fullwidth.letterbox img {
       width: 100%; }
+    .fullwidth.letterbox h1, .fullwidth.letterbox h2, .fullwidth.letterbox h3, .fullwidth.letterbox h4, .fullwidth.letterbox h5 {
+      position: absolute;
+      margin: 0; }
 
 .letterbox {
   height: 15.5em;
