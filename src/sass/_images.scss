@@ -8,4 +8,25 @@
     img{
        width: 100%;
     }
+    &.letterbox{
+        height: 15.5em;
+        overflow: hidden;
+        img{        
+            width:100%;
+        }    
+    }
+}
+
+.letterbox{
+    height: 15.5em;
+    overflow: hidden;
+    img{        
+        width:100%;
+    }    
+}
+
+.full{
+    img{
+        width:100%;
+    }    
 }

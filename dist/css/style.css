@@ -254,6 +254,20 @@ ul li, ol li {
   margin-right: -50vw; }
   .fullwidth img {
     width: 100%; }
+  .fullwidth.letterbox {
+    height: 15.5em;
+    overflow: hidden; }
+    .fullwidth.letterbox img {
+      width: 100%; }
+
+.letterbox {
+  height: 15.5em;
+  overflow: hidden; }
+  .letterbox img {
+    width: 100%; }
+
+.full img {
+  width: 100%; }
 
 .section {
   background: #8b8b8b;
