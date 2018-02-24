@@ -274,14 +274,19 @@ ul li, ol li {
     height: 15.5em;
     overflow: hidden;
     display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center; }
+    position: relative; }
     .fullwidth.letterbox img {
       width: 100%; }
     .fullwidth.letterbox h1, .fullwidth.letterbox h2, .fullwidth.letterbox h3, .fullwidth.letterbox h4, .fullwidth.letterbox h5 {
       position: absolute;
-      margin: 0; }
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 50%;
+      height: 30%;
+      margin: auto;
+      text-align: center; }
 
 .letterbox {
   height: 15.5em;
