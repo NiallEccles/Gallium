@@ -392,3 +392,7 @@ footer {
   footer.light {
     background: #fff;
     color: #333; }
+
+blockquote {
+  border-left: 0.235em solid #333;
+  padding: 0.5em 1em; }
