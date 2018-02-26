@@ -396,3 +396,13 @@ footer {
 blockquote {
   border-left: 0.235em solid #333;
   padding: 0.5em 1em; }
+
+pre {
+  background: #8b8b8b;
+  color: #fff;
+  margin: 0; }
+
+code {
+  background: #8b8b8b;
+  color: #fff;
+  margin: 0; }
