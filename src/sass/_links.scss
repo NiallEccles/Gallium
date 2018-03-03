@@ -5,3 +5,8 @@ a{
 .no-underline{
     text-decoration: none;
 }
+
+.hover:hover{
+    background: $dark;
+    color:$light;
+}

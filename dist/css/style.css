@@ -258,6 +258,10 @@ a {
 .no-underline {
   text-decoration: none; }
 
+.hover:hover {
+  background: #333;
+  color: #fff; }
+
 ul li, ol li {
   margin-bottom: 0.35em; }
 
