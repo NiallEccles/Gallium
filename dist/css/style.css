@@ -413,7 +413,12 @@ code {
 
 .gallery {
   padding: 1em;
-  background: #333; }
+  background: #333;
+  width: 50%;
+  margin: auto; }
+
+.current img {
+  width: 100%; }
 
 .gallery-images img {
   width: 100%; }
@@ -422,3 +427,8 @@ code {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.325em; }
+
+@media screen and (max-width: 800px) {
+  .gallery {
+    width: 90%;
+    margin: auto; } }
