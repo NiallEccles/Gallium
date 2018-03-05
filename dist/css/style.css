@@ -410,3 +410,15 @@ code {
   background: #8b8b8b;
   color: #fff;
   margin: 0; }
+
+.gallery {
+  padding: 1em;
+  background: #333; }
+
+.gallery-images img {
+  width: 100%; }
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.325em; }
