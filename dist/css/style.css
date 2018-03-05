@@ -421,7 +421,8 @@ code {
   width: 100%; }
 
 .gallery-images img {
-  width: 100%; }
+  width: 100%;
+  opacity: 1; }
 
 .gallery-images {
   display: grid;
@@ -431,4 +432,8 @@ code {
 @media screen and (max-width: 800px) {
   .gallery {
     width: 90%;
-    margin: auto; } }
+    margin: auto; }
+  .gallery-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.325em; } }

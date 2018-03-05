@@ -11,7 +11,9 @@
 
 .gallery-images img{
     width: 100%;
+    opacity: 1;
 }
+
 .gallery-images{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -22,5 +24,10 @@
     .gallery{
         width: 90%;
         margin: auto;
+    }
+    .gallery-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0.325em;
     }
 }
