@@ -415,7 +415,7 @@ code {
   padding: 1em;
   background: #333;
   width: 50%;
-  margin: auto;
+  margin: 1em auto 1em auto;
   display: grid;
   grid-gap: 0.325em; }
 
