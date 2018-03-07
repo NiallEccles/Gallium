@@ -418,6 +418,9 @@ code {
   margin: 1em auto 1em auto;
   display: grid;
   grid-gap: 0.325em; }
+  .gallery.left-align {
+    background: red;
+    grid-template-areas: "main-image main-image other-images other-images" "main-image main-image other-images other-images"; }
 
 .current img {
   width: 100%; }
